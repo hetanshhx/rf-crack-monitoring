@@ -1,2 +1,10 @@
-# Auto detect text files and perform LF normalization
+\# filter=lfs diff=lfs merge=lfs -text
 * text=auto
+*.cst filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.step filter=lfs diff=lfs merge=lfs -text
+if filter=lfs diff=lfs merge=lfs -text
+you filter=lfs diff=lfs merge=lfs -text
+export filter=lfs diff=lfs merge=lfs -text
+mechanical filter=lfs diff=lfs merge=lfs -text
+models filter=lfs diff=lfs merge=lfs -text

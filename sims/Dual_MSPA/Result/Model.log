@@ -1,0 +1,318 @@
+2024-12-18 18:19:40   Defined reference frequency for open boundary condition (3 GHz) is larger than
+                      the lowest relevant system frequency (monitor at 2.44 GHz).
+                      Please check the Settings for PML Boundary (Simulation > Settings > Boundary
+                      Conditions > Open Boundary) to ensure accurate monitor results for the lowest
+                      frequency of interest. More...
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:20:25   The following farfield monitor(s) have been adjusted to model box [-29.2785,
+                      31.3223, -38.5885, 124.439, -2.9287, 13.62]:
+                        farfield (f=2.44).
+                      For further information please check the page "Special Solver Parameters -
+                      Solver" in the Online Help.
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:20:25   
+                      Solver started at: 2024-12-18 18:20:25 +0530
+
+                        Module:  Time Domain: S-Parameter (Win 64)
+                        Version: 2024.1 Release from 2023-10-16 (change 1181985)
+
+2024-12-18 18:20:25   
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:20:25   
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:20:25   ======================================================================
+                       Solver cycle: 1
+                      ======================================================================
+
+                      Stimulation at port 1 (mode 1) 
+
+
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:20:26   Units settings: 
+
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:20:26   The dispersive material update [Automatic] will be performed using the "Standard" update schema
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:20:54   Mesh statistics:
+
+                         Hexahedral mesh type: Perfect Boundary Approximation (PBA)
+                            Version: default
+
+                         Parallelization type: domain decomposition
+                            Number of parallel working threads: 6
+                            Number of calculation domains used: 8
+
+                         Used point accuracy enhancement value: 75.00%.
+                         Acceleration mode: CPU
+2024-12-18 17:27:27      current system memory usage reached 80%
+2024-12-18 17:27:33      current system memory usage reached 80%
+2024-12-18 17:27:44      current system memory usage reached 80%
+2024-12-18 17:27:48      current system memory usage reached 80%
+2024-12-18 17:27:54      current system memory usage reached 80%
+                         Used point accuracy enhancement value: 0.00%.
+                         PBA fill limit: 96.01% (inverse)
+2024-12-18 17:28:03      current system memory usage reached 80%
+2024-12-18 17:42:08      current system memory usage reached 75%
+2024-12-18 17:42:06      current system memory usage reached 75%
+2024-12-18 17:42:07      current system memory usage reached 75%
+2024-12-18 17:50:02      current system memory usage reached 80%
+2024-12-18 17:50:01      current system memory usage reached 80%
+2024-12-18 17:50:03      current system memory usage reached 80%
+2024-12-18 17:54:07      current system memory usage reached 80%
+                         PBA fill limit: 95.83% (inverse)
+2024-12-18 17:54:08      current system memory usage reached 80%
+2024-12-18 17:54:15      current system memory usage reached 80%
+2024-12-18 17:57:51      current system memory usage reached 80%
+2024-12-18 17:57:50      current system memory usage reached 80%
+2024-12-18 17:57:57      current system memory usage reached 80%
+2024-12-18 18:01:44      current system memory usage reached 80%
+2024-12-18 18:01:40      current system memory usage reached 80%
+2024-12-18 18:01:39      current system memory usage reached 80%
+2024-12-18 18:09:19      current system memory usage reached 80%
+2024-12-18 18:12:56      current system memory usage reached 80%
+                         PBA fill limit: 95.64% (inverse)
+2024-12-18 18:12:57      current system memory usage reached 80%
+2024-12-18 18:12:59      current system memory usage reached 80%
+2024-12-18 18:13:00      current system memory usage reached 80%
+2024-12-18 18:13:05      current system memory usage reached 80%
+2024-12-18 18:16:52      current system memory usage reached 80%
+2024-12-18 18:20:34      current system memory usage reached 80%
+2024-12-18 18:20:35      current system memory usage reached 80%
+2024-12-18 18:20:37      current system memory usage reached 80%
+
+2024-12-18 18:20:55   Using Generalized port mode solver.
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:20:56   Port mode solver: Detected dispersive material(s) at port 1, 2. 
+                      Using a constant approximation of dispersive material(s) at 3 GHz and neglecting loss terms.  More...
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:20:56   Boundary conditions: 
+
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+
+                        Xmin: expanded open, 4 Layer, depth 15.4811 mm
+                        Xmax: expanded open, 4 Layer, depth 14.9193 mm
+
+                        Ymin: expanded open, 4 Layer, depth 15.478 mm
+                        Ymax: expanded open, 4 Layer, depth 15.478 mm
+
+                        Zmin: expanded open, 4 Layer, depth 15.6338 mm
+                        Zmax: expanded open, 4 Layer, depth 14.2758 mm
+
+                        PML-Type: Convolution PML
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:20:56   Frequency settings: 
+
+                        Fmin:         1
+                        Fmax:         5
+                        Nfsteps(lin): 1001
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:20:56   Field update statistics:
+
+                        Number of components in total: 	2183378
+                        Number of TST and special elements:	1366
+                        Number of lossy metal components:	37768
+                        Number of disp. elements:		62580
+
+                      Subcycling state:      			Automatically deactivated
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:20:56   Waveguide boundaries:
+
+2024-12-18 18:20:56   Port: 1
+
+2024-12-18 18:20:57     --------------------------------- F-Calc 3 ---------------------------------
+                        Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+                        1      1      QTEM        253           1.54e-007     55.6          ---
+                        ----------------------------------------------------------------------------
+
+2024-12-18 18:20:57   Port: 2
+
+2024-12-18 18:20:57     --------------------------------- F-Calc 3 ---------------------------------
+                        Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+                        2      1      QTEM        253           8.45e-005     55.6          ---
+                        ----------------------------------------------------------------------------
+
+2024-12-18 18:20:57   Using standard absorber for unconsidered modes at port 1.
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:20:57   Using standard absorber for unconsidered modes at port 2.
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:22:07   
+                      --------------------------------------------------------------------------------
+2024-12-18 18:22:07   Steady state energy criterion met, solver finished successfully.
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:22:07   Frequency domain results normalized to default signal.
+
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:22:07   
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        Matrices calc.      362058                        2169921      1806640      
+                        Solver run total    298456                        2213556      1832212      
+                        ----------------------------------------------------------------------------
+
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+
+                        Hardware:
+                           Computer name:                 	YogaSlim7 
+
+                           Number of CPU threads:               4
+                           Hardware info:                  	Hardware Accelerator Device not activated
+
+                        Number of mesh cells:             	354177
+                        Excitation duration:              	1.77727437e+000 ns 
+                        Calculation time for excitation:  	0 	s
+                        Number of calculated pulse widths:	4.26396 
+                        Steady state accuracy limit:      	-40	dB 
+                        Simulated number of time steps:   	11058 
+                        Maximum number of time steps:     	51867 
+                        Time step width:
+                           without subcycles:             	6.853157361e-004 ns
+                           used:                          	6.853157361e-004 ns
+
+                        Matrix calculation time:          	28 	s
+                        Solver setup time:                	4 	s
+                        Solver loop time:                 	66 	s
+                        Solver post-processing time:      	1 	s
+                                                          	------------
+                        Total solver time:                	99 	s  ( = 0 h, 1 m, 39 s )
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:22:07   ======================================================================
+                       Solver cycle: 2
+                      ======================================================================
+
+                      Stimulation at port 2 (mode 1) 
+
+
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:22:07   Units settings: 
+
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:22:07   The dispersive material update will be performed using the "Standard" update schema
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:22:09   Boundary conditions: 
+
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+
+                        Xmin: expanded open, 4 Layer, depth 15.4811 mm
+                        Xmax: expanded open, 4 Layer, depth 14.9193 mm
+
+                        Ymin: expanded open, 4 Layer, depth 15.478 mm
+                        Ymax: expanded open, 4 Layer, depth 15.478 mm
+
+                        Zmin: expanded open, 4 Layer, depth 15.6338 mm
+                        Zmax: expanded open, 4 Layer, depth 14.2758 mm
+
+                        PML-Type: Convolution PML
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:22:09   Frequency settings: 
+
+                        Fmin:         1
+                        Fmax:         5
+                        Nfsteps(lin): 1001
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:22:10   Field update statistics:
+
+                        Number of components in total: 	2183378
+                        Number of TST and special elements:	1366
+                        Number of lossy metal components:	37768
+                        Number of disp. elements:		62580
+
+                      Subcycling state:      			Automatically deactivated
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:23:20   
+                      --------------------------------------------------------------------------------
+2024-12-18 18:23:20   Steady state energy criterion met, solver finished successfully.
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:23:20   Frequency domain results normalized to default signal.
+
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:23:20   
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        Matrices calc.      362058                        2169921      1806640      
+                        Solver run total    353128                        1970808      1750976      
+                        ----------------------------------------------------------------------------
+
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+
+                        Hardware:
+                           Computer name:                 	YogaSlim7 
+
+                           Number of CPU threads:               4
+                           Hardware info:                  	Hardware Accelerator Device not activated
+
+                        Number of mesh cells:             	354177
+                        Excitation duration:              	1.77727437e+000 ns 
+                        Calculation time for excitation:  	0 	s
+                        Number of calculated pulse widths:	4.26396 
+                        Steady state accuracy limit:      	-40	dB 
+                        Simulated number of time steps:   	11058 
+                        Maximum number of time steps:     	51867 
+                        Time step width:
+                           without subcycles:             	6.853157361e-004 ns
+                           used:                          	6.853157361e-004 ns
+
+                        Reloading matrices:               	0 	s
+                        Solver setup time:                	3 	s
+                        Solver loop time:                 	66 	s
+                        Solver post-processing time:      	1 	s
+                                                          	------------
+                        Total solver time:                	70 	s  ( = 0 h, 1 m, 10 s )
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:23:20   
+                        Adaptive port meshing time:          	45     	s
+                        Total solver time (all cycles):      	169    	s  ( = 0 h, 2 m, 49 s )
+                        Solver initialization and clean-up:  	5      	s
+                                                             	------------
+                        Total simulation time:               	219    	s  ( = 0 h, 3 m, 39 s )
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:23:20   Solver finished at: 2024-12-18 18:23:20 +0530
+
+
+
+                      ------------------------------------------------------------------------------
+2024-12-18 18:23:24   Creating parametric 1D results for Run ID 11
+
+                      ------------------------------------------------------------------------------

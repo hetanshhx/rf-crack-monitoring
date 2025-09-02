@@ -9,4 +9,3 @@ For this project, an antenna sensor is proposed for sensing, measuring, and quan
 - `figures/` — plots and screenshots
 - `src/` — script to reproduce plots
 - `docs/` — documentations
-

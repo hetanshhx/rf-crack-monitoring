@@ -4,8 +4,8 @@ For this project, an antenna sensor is proposed for sensing, measuring, and quan
 
 **Repository Structure**
 
+- `docs/` — All the necessary documentations
 - `sims/` — CST project files
-- `data/sparams/` — exported S-parameter plots
-- `figures/` — plots and screenshots
-- `src/` — script to reproduce plots
-- `docs/` — documentations
+- `data/sparams/` — Exported S-parameter plots
+- `figures/` — Plots and screenshots
+- `src/` — Script to reproduce plots
